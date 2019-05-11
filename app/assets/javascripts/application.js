@@ -19,3 +19,6 @@
 //= require jquery.dcjqaccordion.min.js
 //= require owl.carousel.min.js
 //= require custom.js
+//= require jquery.elevateZoom-3.0.8.min.js
+//= require swipebox/lib/ios-orientationchange-fix.js
+//= require swipebox/src/js/jquery.swipebox.min.js
