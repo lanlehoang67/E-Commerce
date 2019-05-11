@@ -1,0 +1,9 @@
+<div class="product-thumb clearfix">
+                                <div class="image">
+                                    <a data-method='get' href="<%= product_path product %>"><img src="../assets/products/<%= product.mini_image %>" alt="<%= product.name %>" title="<%= product.name %>" class="img-responsive" /></a>
+                                </div>
+                                <div class="caption">
+                                    <h4><a data-method='get' href="<%= product_path product %>"><%= product.name %></a></h4>
+                                    <p class="price"><span class="price-new"><%= product.price %></span> <span class="price-old"><%= product.old_price %></span> <span class="saving">-10%</span></p>
+                                </div>
+                            </div>

@@ -14,11 +14,14 @@
 </head>
 
 <body>
+        <div class="wrapper-wide">
+               <%= render partial: 'layouts/header' %>
     <%= yield %>
     <!-- Wrapper End -->
-
+    <%= render partial: 'layouts/footer' %>
     <!-- JS Part Start-->
     <%= javascript_include_tag 'application' %>
+</div>
     <!-- JS Part End-->
 </body>
 
